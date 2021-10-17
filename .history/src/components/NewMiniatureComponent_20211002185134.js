@@ -1,0 +1,14 @@
+import React from "react";
+class NewMiniatureComponent extends React.Component {
+
+    constructor(props){
+        super(props)
+        console.log("props = "+props)
+
+    }
+    render(){
+        return <div/>
+    }
+    
+}
+export default NewMiniatureComponent
